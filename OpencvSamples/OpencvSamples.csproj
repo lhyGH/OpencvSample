@@ -15,6 +15,7 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -64,6 +65,7 @@
     <Compile Include="Samples\DetectionImgDog.cs" />
     <Compile Include="Samples\DetectionImg2.cs" />
     <Compile Include="Samples\DetectionImg.cs" />
+    <Compile Include="Samples\ReadRTSP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
